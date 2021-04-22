@@ -7,12 +7,8 @@
     "node": "14.x"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "dev": "nodemon src/index.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +21,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
-    "serve": "^11.3.2"
+    "serve": "^11.3.2",
+    "server": "^1.0.32"
   },
   "browserslist": {
     "production": [
